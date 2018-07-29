@@ -20,6 +20,7 @@ you're in.
 
 
 Getting identifiers:
+
 To download from Project Gutenberg and the Internetarchive respectively
 you need an identifier for the book you want to download. Here's how you
 get the identifier on each platform:
