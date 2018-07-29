@@ -39,8 +39,5 @@ def adjust_download(id, old_name, new_name):
 	os.rmdir(id)
 
 # Examples:
-# get_from_gutenberg("excurions", 9846)
+# get_from_gutenberg("moby_dick", 2701)
 # get_from_iarchive("great_expectations","GreatExpectations-CharlesDickens")
-
-
-# github - user-facing-side...
