@@ -1,10 +1,22 @@
 Downloading books from Project Gutenberg and the Internetarchive. 
 
-The two main functions are "get_from_gutenberg" and "get_from_iarchive".
-Each function has to be called with 2 arguments: 
-1. The title of the book as you want it (e.g. "moby_dick")
-2. A unqiue identifier of the book which you have to get online from project gutenberg/interneratchive.
+Use:
 
-Getting the identifiers:
-- Gutenberg-proj - go to page of the book you want - the identifier is a number that you can find in the url.
-- Internetarchive - go to page of the book you want - the identifier is on that page in the data section (scroll down), referenced as "identifier".
+1. Download code 
+--- In command-line: git@github.com:JohannesSeikowsky/book_downloader.git
+
+2. Ensure dependencies
+--- pip install internetarchive
+--- pip install gutenberg
+--- Install Python 2.7 (If you don't have it)
+
+3. Navigate to /book_downloader directory on cmd-line.
+4. Open main.py, comment out the relevant example code,
+fill in the book title you want to donwload and that books identifier.
+5. run programme as normal. (python main.py in cmd-line)
+
+The book will be downloaded directly into the /book_downloader directory
+you're in.
+
+
+Getting identifiers.
