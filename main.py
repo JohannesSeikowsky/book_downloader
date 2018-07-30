@@ -4,9 +4,10 @@ from gutenberg.acquire import load_etext
 from gutenberg.cleanup import strip_headers
 import internetarchive
 from internetarchive import get_item
-import shutil, os
+import shutil, os, time
 from utils import write_to_file
 
+start_time = time.time()
 
 def get_from_gutenberg(item_title, identifier):
 	""" download from Gutenberg, process content, write to file """
@@ -41,3 +42,6 @@ def adjust_download(id, old_name, new_name):
 # Examples:
 # get_from_gutenberg("moby_dick", 2701)
 # get_from_iarchive("great_expectations","GreatExpectations-CharlesDickens")
+
+
+# work on readme -- minimum -- incl pipeline -- mv on...
