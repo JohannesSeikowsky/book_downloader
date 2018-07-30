@@ -40,9 +40,12 @@ def adjust_download(id, old_name, new_name):
 	os.rmdir(id)
 
 
-
-# Examples
+# Project Gutenberg
 # get_from_gutenberg("moby_dick", 2701)
+
+
+
+# Internetarchive
 # get_from_iarchive("great_expectations","GreatExpectations-CharlesDickens")
 
 
