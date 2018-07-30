@@ -12,7 +12,7 @@ Simple way to download books from Project Gutenberg and the Internetarchive.
 
 - `pip install gutenberg`
 
-#### 3. Use
+#### 3. Download a book
 
 - `cd book_downloader`
 
