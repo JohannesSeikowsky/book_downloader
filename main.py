@@ -40,27 +40,20 @@ def adjust_download(id, old_name, new_name):
 	os.rmdir(id)
 
 
-# Project Gutenberg
+
+# INSTRUCTIONS
+
+""" 1. Project Gutenberg
+uncomment function call below, replace moby_dick with the title of the book you want,
+on the project gutenberg website go to the page of that book,
+in the url there will be the identifier of that book, replace 2701 with that (usually a number). Run. 
+"""
 # get_from_gutenberg("moby_dick", 2701)
 
 
-
-# Internetarchive
+""" 2. Internetarchive
+uncomment function call below, replace great_expectations with the title of the book you want,
+on the internetarchive website go to the page of that book, scroll down, there's a section
+with meta-data, you want the "Identifier". Replace the second argument with that Identifier. Run.
+"""
 # get_from_iarchive("great_expectations","GreatExpectations-CharlesDickens")
-
-
-"""
-Getting identifiers of books:
-To download from Project Gutenberg and the Internetarchive respectively
-you need an identifier for the book you want to download. Here's how you
-get the identifier on each platform:
-
-- Project Gutenberg
-Go to Project Gutenberg. Go the the page of the book you want to download.
-The identifer is a number that can be seen in the url.
-
-- Internetarchive
-Go to the Internetarchive. Go the the page of the book you want to download.
-Scroll down. There's a section that shows meta-data about the book.
-You want the "Identifer".
-"""
