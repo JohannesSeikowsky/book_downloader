@@ -18,11 +18,9 @@ Simple way to download books from Project Gutenberg and the Internetarchive.
 
 - open main.py in a text editor
 
-- scroll to very bottom
+- scroll to very bottom, adjust example function to download the book you want.
 
-- adjust example function to download the book you want.
-
-- run program using Python2 by running "python main.py"
+- run program using Python2 | python main.py
 
 
 #### Book will be downloaded directly into the /book_downloader directory.
