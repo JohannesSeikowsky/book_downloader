@@ -1,30 +1,32 @@
 Simple way to download books from Project Gutenberg and the Internetarchive.
 
-### How to use:
+### Use
 
 #### 1. Download code 
 
---- run "git clone git@github.com:JohannesSeikowsky/book_downloader.git"
+--- git clone git@github.com:JohannesSeikowsky/book_downloader.git
 
 #### 2. Ensure dependencies
 
---- run "pip install internetarchive"
+--- run pip install internetarchive
 
---- run "pip install gutenberg"
+--- run pip install gutenberg
 
 #### 3. Use code
 
-- Navigate to /book_downloader directory on cmd-line.
+- cd book_downloader
 
--  Open main.py, comment out the relevant example code,
-fill in the book title you want to donwload and that books identifier.
-- run programme as you normally woud. (python main.py in cmd-line)
+- open main.py in text editor of your choice
 
-The book will be downloaded directly into the /book_downloader directory
+- at 
+
+- run file | python 
+(using python2)
+
+The book will be downloaded directly into the /book_downloader directory that
 you're in.
 
 
- 
 ### Getting identifiers of books:
 
 To download from Project Gutenberg and the Internetarchive respectively
